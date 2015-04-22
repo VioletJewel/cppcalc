@@ -1,0 +1,31 @@
++~~~~~~~~~~+
+| PROBLEMS |
++~~~~~~~~~~+
+
+math
+----
+1. calculate
+    2*3 ==> infinite loop
+    2sin(3)
+
+2. list options
+    7. liner regression ==> doesn't work
+
+3. matrix
+    edit matrix ==> matrix4 (for ex) will still proceed. Later this throws caught error later
+
+4. graph
+    could not get it integrated
+
+5. integrate ==> ? doesn't work at all
+
+6. summation ==> ? doesn't work at all perhaps
+
+
+graphing
+--------
+seg faults (sin applies to all trig functions)
+    n sin(x)
+    sin(n x)
+    sin(n * x)
+
