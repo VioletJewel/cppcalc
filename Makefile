@@ -2,7 +2,7 @@ default:
 	g++ -c main.cpp -o main.o -std=c++11
 	g++ -c reader.cpp -o reader.o -std=c++11
 	g++ -c grapher.cpp -o grapher.o -std=c++11
-	g++ -Wl,-rpath,lib main.o reader.o grapher.o -lX11
+	g++ -Wl,-rpath,lib main.o reader.o grapher.o -lX11 -o calculator
 all:
 	g++ -Wl,-rpath,lib main.o reader.o grapher.o -lX11
 compile:
